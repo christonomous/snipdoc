@@ -1,5 +1,7 @@
 # VuePress from Scratch
 
+> You can find the hole vuepress-documentation [here](https://vuepress.vuejs.org/).
+
 In this documentation for getting vuepress initialized we need to work with yarn, because npm doesnt handle required dependencies that well yet. We'll update that later.
 
  > ### Requirements
@@ -81,6 +83,29 @@ module.exports = {
 ```
 
 ### Navigation
+The navigation will be activated, if we add the fallowing snippet into the `.vuepress/config.js` file.
+> Keep in mind the form - remember, we already added the function `module.export`.
 
+```
+module.exports = {
+  themeConfig: {
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Guide', link: '/guide/' },
+      { text: 'External', link: 'https://google.com' },
+    ]
+  }
+}
+```
 
 ### Sidebar
+The sidebar will be activated, if we add the fallowing snippet into the `.vuepress/config.js` file.
+> Keep in mind the form - remember, we already added the function `module.export`.
+
+```
+module.exports = {
+  themeConfig: {
+    sidebar: 'auto',
+  }
+}
+```
