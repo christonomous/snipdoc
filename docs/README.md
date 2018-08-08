@@ -5,5 +5,4 @@ This documentation is about any snippets I find very regulary usefull and get to
 > This documentation may has issues. I am very new to programming, so I have not much experience. But I have much administrations skills - sourcecode is not new to me and I always update my systems ;)
 
 
-
-![equaliser](./imgs/footer/equaliser.png)
+[![equaliser](./imgs/footer/equaliser.png)](http://equaliser.minimalcity.de)
