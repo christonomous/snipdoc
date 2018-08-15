@@ -73,3 +73,9 @@ comment = Samba-Pi-Freigabe
 path = /home/shares/pi
 read only = no
 ```
+
+#### Restart Service
+```
+sudo service smbd restart
+sudo service nmbd restart
+```
