@@ -79,3 +79,19 @@ read only = no
 sudo service smbd restart
 sudo service nmbd restart
 ```
+
+### Change Password
+Change password for user `pi`
+```
+sudo smbpasswd -a pi
+```
+
+Deactivate User `pi`
+```
+sudo smbpasswd -d pi
+```
+
+Reactivate User `pi`
+```
+sudo smbpasswd -e pi
+```
