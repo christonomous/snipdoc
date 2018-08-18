@@ -1,6 +1,15 @@
-# Git Orga
 
+## Configuration
 
+`git config --global user.name "NAME"`
+`git config --global user.email "EMAIL"`
+
+## Repo Organization
+`git init`
+`git add`
+`git commit -a`
+`git status`
+`git push`
 
 
 ## Update Repository
