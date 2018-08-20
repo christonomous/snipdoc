@@ -1,3 +1,6 @@
+---
+sidebar: false
+---
 
 # Snippet Documentation
 This documentation is about any snippets I find very regulary usefull and get to know, so I collect those right here.

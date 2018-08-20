@@ -30,7 +30,7 @@ Let's create the first markdown file as the index of our documentation.
 ### Initializing Scripts
 Now, we need to add these scripts below into the `package.json`, which has been created by installing vuepress dependecies. With these scripts we can start the dev mode or build our project.
 
-```
+```js
 {
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -39,7 +39,7 @@ Now, we need to add these scripts below into the `package.json`, which has been 
 }
 ```
 > Keep in mind the form of `package.json`. Later is has to look something like this:
-```
+```js
 {
   "devDependencies": {
     "vuepress": "^0.13.1"
@@ -75,7 +75,7 @@ The folder structure should look like this:
 ```
 Now we need to export an JavaScript object. Insert the fallowing into the `config.js`
 
-```
+```js
 module.exports = {
   title: 'Hello VuePress',
   description: 'Just playing around'
@@ -86,7 +86,7 @@ module.exports = {
 The navigation will be activated, if we add the fallowing snippet into the `.vuepress/config.js` file.
 > Keep in mind the form - remember, we already added the function `module.export`.
 
-```
+```js
 module.exports = {
   themeConfig: {
     nav: [
@@ -102,7 +102,7 @@ module.exports = {
 The sidebar will be activated, if we add the fallowing snippet into the `.vuepress/config.js` file.
 > Keep in mind the form - remember, we already added the function `module.export`.
 
-```
+```js
 module.exports = {
   themeConfig: {
     sidebar: 'auto',
