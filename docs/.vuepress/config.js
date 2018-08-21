@@ -15,6 +15,7 @@ module.exports = {
     { text: 'JavaScript/NodeJS',
         items: [
           { text: 'Learning JavaScript', link: '/javascript/learningjs.md' },
+          { text: 'VueJS from Scratch', link: '/javascript/vuejs_from_scratch.md' },
           { text: 'Dev Vuepress', link: '/javascript/vuepress-from-scratch.md' },
           { text: 'Dev Electron', link: '/javascript/electron-from-scratch.md' },
         ]},
