@@ -25,3 +25,19 @@ If you have made changes, and you want to avoid adding a new merge commit, use g
 `git pull --rebase`
 
 will work even if you haven't made changes and is probably your best call.
+
+---
+
+…or create a new repository on the command line
+
+echo "# equaliser" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:equaliser0/equaliser.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:equaliser0/equaliser.git
+git push -u origin master
