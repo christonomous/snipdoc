@@ -1,4 +1,4 @@
-# This documentation is about developement with VueJS. 
+# VueJS from Scratch
 > Requirements NodeJS
 
 ## Installation
