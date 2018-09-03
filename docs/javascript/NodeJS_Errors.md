@@ -16,5 +16,5 @@ Sysctl
 `sysctl --system`
 > This will also persist across reboots.
 
-*- Ref: [Increasing Amount of Inotify Watchers]('https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers#the-technical-details')*
+*- Ref: [Increasing Amount of Inotify Watchers](https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers#the-technical-details)*
 
