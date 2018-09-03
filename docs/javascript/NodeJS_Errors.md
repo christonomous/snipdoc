@@ -6,7 +6,7 @@
       throw er; // Unhandled 'error' event
       ^
 
-Error: ENOSPC: no space left on device, watch PATH'
+Error: ENOSPC: no space left on device, watch 'PATH'
 ```
 
 Run the below command to avoid ENOSPC:
