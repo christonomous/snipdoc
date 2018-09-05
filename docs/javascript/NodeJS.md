@@ -1,6 +1,14 @@
-# NodeJS Errors
 
-## No Space Left
+## Node Package Manager
+
+### Global Packages
+Finding out which node-packages are installed globaly. 
+
+`npm list -g --depth 0`
+
+## NodeJS Errors
+
+### No Space Left
 
 ```events.js:167
       throw er; // Unhandled 'error' event
