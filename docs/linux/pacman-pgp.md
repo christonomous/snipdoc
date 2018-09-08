@@ -24,3 +24,16 @@
 6. Clear out the software packages downloaded during the aborted installation (optional):
 
 `sudo pacman -Sc`
+
+
+### One or more PGP signatures could not be verified!
+
+If you get
+
+`llvm-5.0.1.src.tar.xz … FAILED (unknown public key 8F0871F202119294)`
+
+then
+
+`gpg --recv-key 8F0871F202119294`
+
+and try again. Enter the key ID as appropriate.
