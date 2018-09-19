@@ -60,6 +60,9 @@ Reference: https://stackoverflow.com/questions/39103510/javascript-generate-new-
 ### Dates
 Reference: https://acdcjunior.github.io/how-bind-date-object-to-input-date-vue.js-v-model.html
 
+## Text Module System
+Reference: https://github.com/LogX7/Select7
+
 > Mabe Offtopic
 
 #### Custom HTML Attribute
