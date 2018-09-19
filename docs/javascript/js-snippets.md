@@ -57,7 +57,12 @@ Reference: https://stackoverflow.com/questions/39103510/javascript-generate-new-
 
 ---
 
+### Dates
+Reference: https://acdcjunior.github.io/how-bind-date-object-to-input-date-vue.js-v-model.html
+
 > Mabe Offtopic
 
 #### Custom HTML Attribute
 https://university.webflow.com/article/how-to-add-custom-head-and-body-code-to-a-webflow-site
+
+
