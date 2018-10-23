@@ -1,4 +1,24 @@
+# Develope Python Project
+> Since now only Note so far.
 
+## Setup Virtual Enviroment
+To setup an virtual enviroment for you project, go into your projectfolder and run the fallowing:
+> we are on python 3.6^
+> Note: in most tutorials it said we need to go with `python3` in terminal. In my case `python` is enough (I have to find out why)
+
+```
+python -m venv env
+```
+
+Now you should see an `env` folder in your project directory.
+
+To activate the enviroment, you need to run the Script, which you can find in `env/Scripts/`. It depends on which OS you use. 
+If you want to deactivate the virtual enviroment, just type in
+```
+deactivate
+```
+
+## Import Module/Packages
 There are many ways to import a python file, all with their pros and cons.
 
 Don't just hastily pick the first import strategy that works for you or else you'll have to rewrite the codebase later on when you find it doesn't meet your needs.
