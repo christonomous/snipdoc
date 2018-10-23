@@ -128,3 +128,7 @@ If you want to see my post on how to include ALL .py files under a directory see
 ### Bonus protip
 
 Whether you are using Mac, Linux or Windows, you need to be using python's idle editor as described here. It will unlock your python world. http://www.youtube.com/watch?v=DkW5CSZ_VII
+
+> References
+> https://stackoverflow.com/questions/2349991/how-to-import-other-python-files
+> https://github.com/pypa/pipenv
