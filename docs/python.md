@@ -2,6 +2,7 @@
 > Since now only Note so far.
 
 ## Setup Virtual Enviroment
+> Note better use PIPENV
 To setup an virtual enviroment for you project, go into your projectfolder and run the fallowing:
 > we are on python 3.6^
 > Note: in most tutorials it said we need to go with `python3` in terminal. In my case `python` is enough (I have to find out why)
