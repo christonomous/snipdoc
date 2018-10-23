@@ -12,7 +12,7 @@ Put this in /home/el/foo/fox.py:
 
 ```
 def what_does_the_fox_say():
-print("vixens cry")
+   print("vixens cry")
 ```
 
 Get into the python interpreter:
