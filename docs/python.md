@@ -55,82 +55,6 @@ el@apollo:/home/el/foo3$ python main.py
 If you defined other functions in chekov.py, they would not be available unless you import *
 
 ### Example 3
-Import riaa.py if it's in a different file location from where it is imported
-
-Put this in /home/el/foo4/stuff/riaa.py:
-
-```
-def watchout():
-  print "computers are transforming into a noose and a yoke for humans"
-```
-
-Put this in /home/el/foo4/main.py:
-
-```
-import sys 
-import os
-  sys.path.append(os.path.abspath("/home/el/foo4/stuff"))
-  from riaa import *
-    watchout()
-```
-
-Run it:
-
-```
-el@apollo:/home/el/foo4$ python main.py 
-computers are transforming into a noose and a yoke for humans
-```
-
-That imports everything in the foreign file from a different directory.
-
-### Example 4
-use `os.system("python yourfile.py")`
-
-```
-import os
-os.system("python yourfile.py")
-```
-
-### Example 5
-`import` your file via `piggybacking` the python startuphook:
-
-> See: https://docs.python.org/3/library/user.html
-
-Put this code into your home directory in `~/.pythonrc.py`
-
-```
-class secretclass:
-    def secretmessage(cls, myarg):
-        return myarg + " is if.. up in the sky, the sky"
-    secretmessage = classmethod( secretmessage )
-
-    def skycake(cls):
-        return "cookie and sky pie people can't go up and "
-    skycake = classmethod( skycake )
-```
-
-Put this code into your `main.py` (can be anywhere):
-
-```
-import user
-msg = "The only way skycake tates good" 
-msg = user.secretclass.secretmessage(msg)
-msg += user.secretclass.skycake()
-print(msg + " have the sky pie! SKYCAKE!")
-```
-
-Run it:
-
-```
-$ python main.py
-The only way skycake tates good is if.. up in the sky, 
-the skycookie and sky pie people can't go up and  have the sky pie! 
-SKYCAKE!
-```
-
-> Credit for this jist goes to: https://github.com/docwhat/homedir-examples/blob/master/python-commandline/.pythonrc.py Send along your up-boats.
-
-### Example 6
 Most Robust: Import files in python with the bare import command:
 
 Make a new directory `/home/el/foo5/`
@@ -157,8 +81,8 @@ Under `/home/el/foo5/herp/derp` make a new file called `yolo.py`. Put this in th
 
 ```
 def skycake():
-  print "SkyCake evolves to stay just beyond the cognitive reach of " +
-  "the bulk of men. SKYCAKE!!"
+   print "SkyCake evolves to stay just beyond the cognitive reach of " +
+   "the bulk of men. SKYCAKE!!"
 ```
 
 The moment of truth. Make the new file `/home/el/foo5/main.py`, put this in there;
