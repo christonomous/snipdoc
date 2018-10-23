@@ -29,43 +29,20 @@ el@apollo:/home/el/foo$ python
 You imported fox through the python interpreter, invoked the python function what_does_the_fox_say() from within fox.py.
 
 ### Example 2
-Use execfile or (exec in Python 3) in a script to execute the other python file in place:
-
-Put this in /home/el/foo2/mylib.py:
-
-```
-def moobar():
-  print("hi")
-```
-
-Put this in /home/el/foo2/main.py:
-
-```
-execfile("/home/el/foo2/mylib.py")
-  moobar()
-```  
-run the file:
-```
-el@apollo:/home/el/foo$ python main.py
-  hi
-```
-The function moobar was imported from mylib.py and made available in main.py
-
-### Example 3
 Use from ... import ... functionality:
 
 Put this in /home/el/foo3/chekov.py:
 
 ```
 def question():
-  print "where are the nuclear wessels?"
+   print "where are the nuclear wessels?"
 ```
 
 Put this in /home/el/foo3/main.py:
 
 ```
 from chekov import question
-  question()
+question()
 ```
 
 Run it like this:
@@ -77,7 +54,7 @@ el@apollo:/home/el/foo3$ python main.py
 
 If you defined other functions in chekov.py, they would not be available unless you import *
 
-### Example 4
+### Example 3
 Import riaa.py if it's in a different file location from where it is imported
 
 Put this in /home/el/foo4/stuff/riaa.py:
@@ -106,7 +83,7 @@ computers are transforming into a noose and a yoke for humans
 
 That imports everything in the foreign file from a different directory.
 
-### Example 5
+### Example 4
 use `os.system("python yourfile.py")`
 
 ```
@@ -114,7 +91,7 @@ import os
 os.system("python yourfile.py")
 ```
 
-### Example 6
+### Example 5
 `import` your file via `piggybacking` the python startuphook:
 
 > See: https://docs.python.org/3/library/user.html
@@ -153,7 +130,7 @@ SKYCAKE!
 
 > Credit for this jist goes to: https://github.com/docwhat/homedir-examples/blob/master/python-commandline/.pythonrc.py Send along your up-boats.
 
-### Example 7
+### Example 6
 Most Robust: Import files in python with the bare import command:
 
 Make a new directory `/home/el/foo5/`
